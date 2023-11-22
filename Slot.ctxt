@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Slot
+comment0.text=\r\n\ Slot\r\n\ This\ class\ handles\ the\ state\ of\ each\ slot\ in\ the\ game.\ Extending\ observable\ in\ preparation\ for\ the\ addition\ of\ a\ GUI.\r\n\ @author\ Lauren\ Scott\r\n\ @version\ Student\ Sample\ Code\r\n
+comment1.params=col\ row\ number
+comment1.target=Slot(int,\ int,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ of\ the\ class\ slot\r\n\ This\ creates\ the\ slot\ and\ denotes\ where\ it\ is\ placed\ in\ the\ game\ board.\r\n\ \r\n\ @param\ col\ -\ the\ slot's\ column\ number\r\n\ @param\ row\ -\ the\ slot's\ row\ number\r\n\ @param\ number\ -\ the\ number\ that\ is\ in\ that\ cell\r\n
+comment2.params=col\ row\ number\ fillable
+comment2.target=Slot(int,\ int,\ java.lang.String,\ java.lang.Boolean)
+comment2.text=\r\n\ Constructor\ of\ the\ class\ slot\ when\ importing\ the\ level\ file\r\n\ This\ creates\ the\ slot\ and\ denotes\ where\ it\ is\ placed\ in\ the\ game\ board.\r\n\ \r\n\ @param\ col\ -\ the\ slot's\ column\ number\r\n\ @param\ row\ -\ the\ slot's\ row\ number\r\n\ @param\ number\ -\ the\ number\ that\ is\ in\ that\ cell\r\n\ @param\ fillable\ -\ whether\ that\ cell\ can\ be\ filled\ \ by\ the\ user,\ cells\ in\ the\ level\ file\ that\ already\ have\ numbers\ should\ not\ be\ changed.\r\n
+comment3.params=newState
+comment3.target=void\ setState(java.lang.String)
+comment3.text=\r\n\ setState\r\n\ This\ method\ sets\ the\ current\ state\ of\ the\ slot\r\n\ @param\ newState\ -\ the\ new\ state\ of\ the\ slot\r\n
+comment4.params=
+comment4.target=java.lang.String\ getState()
+comment4.text=\r\n\ getState\r\n\ This\ provides\ the\ current\ state\ of\ the\ slot\r\n\ @return\ the\ current\ state\ of\ the\ slot\r\n
+comment5.params=state
+comment5.target=boolean\ isValidState(java.lang.String)
+comment5.text=\r\n\ isValidState\ \r\n\ This\ method\ checks\ whether\ the\ selected\ state\ is\ valid\r\n\ @param\ state\ -\ the\ state\ that\ is\ being\ checked\r\n\ @return\ a\ Boolean\ value\ showing\ whether\ the\ state\ is\ valid\ or\ not\r\n
+comment6.params=
+comment6.target=java.lang.Boolean\ getFillable()
+comment6.text=\r\n\ This\ method\ checks\ whether\ the\ cell\ the\ user\ is\ wanting\ to\ interact\ with\ can\ be\ filled\r\n\ @return\ whether\ it\ can\ be\ filled.\r\n
+comment7.params=
+comment7.target=int\ getRow()
+comment8.params=
+comment8.target=int\ getCol()
+numComments=9
